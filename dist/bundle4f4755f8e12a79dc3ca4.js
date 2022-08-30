@@ -33,13 +33,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./my-font.woff2 */ "./src/my-font.woff2"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./my-font.woff */ "./src/my-font.woff"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./bubblegum-sans-v16-latin-regular.woff */ "./src/bubblegum-sans-v16-latin-regular.woff"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./fira-sans-v16-latin-regular.woff2 */ "./src/fira-sans-v16-latin-regular.woff2"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n    font-family: 'Courier New';\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('woff2'),\r\n      url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('woff');\r\n    font-weight: 600;\r\n    font-style: normal;\r\n}\r\n\r\nbody {\r\n    width: 100%;\r\n    font-family: 'Courier New', Courier, monospace;\r\n}", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;IACI,0BAA0B;IAC1B;4DACsC;IACtC,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,WAAW;IACX,8CAA8C;AAClD","sourcesContent":["@font-face {\r\n    font-family: 'Courier New';\r\n    src: url('./my-font.woff2') format('woff2'),\r\n      url('./my-font.woff') format('woff');\r\n    font-weight: 600;\r\n    font-style: normal;\r\n}\r\n\r\nbody {\r\n    width: 100%;\r\n    font-family: 'Courier New', Courier, monospace;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\r\n  font-family: 'Bubblegum Sans';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('woff'),\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Fira Sans';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('woff2'), \r\n}\r\n\r\nbody {\r\n    width: 100%;\r\n    font-family: 'Bubblegum Sans', cursive, sans-serif;\r\n}", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;EACE,6BAA6B;EAC7B,kBAAkB;EAClB,gBAAgB;EAChB;AACF;;AAEA;EACE,wBAAwB;EACxB,kBAAkB;EAClB,gBAAgB;EAChB;AACF;;AAEA;IACI,WAAW;IACX,kDAAkD;AACtD","sourcesContent":["@font-face {\r\n  font-family: 'Bubblegum Sans';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  src: url('./bubblegum-sans-v16-latin-regular.woff') format('woff'),\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Fira Sans';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  src: url('./fira-sans-v16-latin-regular.woff2') format('woff2'), \r\n}\r\n\r\nbody {\r\n    width: 100%;\r\n    font-family: 'Bubblegum Sans', cursive, sans-serif;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -586,23 +586,23 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/my-font.woff":
-/*!**************************!*\
-  !*** ./src/my-font.woff ***!
-  \**************************/
+/***/ "./src/bubblegum-sans-v16-latin-regular.woff":
+/*!***************************************************!*\
+  !*** ./src/bubblegum-sans-v16-latin-regular.woff ***!
+  \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "my-font.woff";
+module.exports = __webpack_require__.p + "bubblegum-sans-v16-latin-regular.woff";
 
 /***/ }),
 
-/***/ "./src/my-font.woff2":
-/*!***************************!*\
-  !*** ./src/my-font.woff2 ***!
-  \***************************/
+/***/ "./src/fira-sans-v16-latin-regular.woff2":
+/*!***********************************************!*\
+  !*** ./src/fira-sans-v16-latin-regular.woff2 ***!
+  \***********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "my-font.woff2";
+module.exports = __webpack_require__.p + "fira-sans-v16-latin-regular.woff2";
 
 /***/ })
 
@@ -612,4 +612,4 @@ module.exports = __webpack_require__.p + "my-font.woff2";
 /******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
 /******/ }
 ]);
-//# sourceMappingURL=bundle730b3b646cd6ece110e8.js.map
+//# sourceMappingURL=bundle4f4755f8e12a79dc3ca4.js.map

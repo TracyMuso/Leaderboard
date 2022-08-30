@@ -1,12 +1,18 @@
 @font-face {
-    font-family: 'Courier New';
-    src: url('./my-font.woff2') format('woff2'),
-      url('./my-font.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Bubblegum Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./bubblegum-sans-v16-latin-regular.woff') format('woff'),
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fira-sans-v16-latin-regular.woff2') format('woff2'), 
 }
 
 body {
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Bubblegum Sans', cursive, sans-serif;
 }
