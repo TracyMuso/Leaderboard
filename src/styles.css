@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Courier New';
+    src: url('./my-font.woff2') format('woff2'),
+      url('./my-font.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
