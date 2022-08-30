@@ -1,18 +1,25 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "Leaderboard",
   "version": "1.0.0",
-  "description": "",
-  "private": "true",
+  "description": "> In this project, I made a simple Leaderboard application.",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "watch": "webpack --watch",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open",
-    "dev": "webpack serve"
+    "build": "webpack",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfin-git/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elfin-git/Leaderboard/issues"
+  },
+  "homepage": "https://elfin-git.github.io/Leaderboard/dist/",
   "devDependencies": {
     "@babel/core": "^7.18.13",
     "@babel/preset-env": "^7.18.10",
