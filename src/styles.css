@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Bubblegum Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400 800;
   src: url('./bubblegum-sans-v16-latin-regular.woff') format('woff'),
 }
 
@@ -13,6 +13,93 @@
 }
 
 body {
-    width: 100%;
-    font-family: 'Bubblegum Sans', cursive, sans-serif;
+  width: 100%;
+  font-family: 'Bubblegum Sans', cursive, sans-serif;
+}
+
+#leaderboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+#refresh {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  row-gap: 1rem;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.btn1 {
+  width: 5rem;
+  font-size: 15px;
+  margin: 0.5rem;
+  height: 2rem;
+}
+
+#board {
+  width: 70%;
+  margin-left: 5rem;
+  border: solid 1px #2c2b2b;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem;
+}
+
+tr:nth-child(odd) {
+  background-color: #b1adad;
+}
+
+#page-grid-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page-grid-2 h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 0.5rem;
+  justify-content: end;
+  align-items: flex-end;
+  margin-right: 5rem;
+  width: 70%;
+}
+
+#name {
+  padding: 0.5rem;
+  font-size: 15px;
+  width: 90%;
+}
+
+button:active {
+  background-color: #b1adad;
+}
+
+#score {
+  padding: 0.5rem;
+  font-size: 15px;
+  width: 90%;
+}
+
+.btn2 {
+  padding: 0.5rem;
+  font-size: 15px;
+  box-shadow: 2px #2c2b2b;
 }

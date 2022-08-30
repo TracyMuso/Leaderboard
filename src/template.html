@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LeaderBoard</title>
 </head>
 <body>
-    <h1>Hello webpack</h1>
+  <h1>LeaderBoard</h1>
+  <section id="leaderboard">
+      <div id="page-grid-1">
+           <div id="refresh">
+              <h3>Recent Scores</h3>
+              <button type="button" class="btn1">Refresh</button>
+           </div>
+         <table id="board">
+           <tr class="count">
+              <td>Name:</td>
+              <td>500</td>
+           </tr>
+           <tr class="count">
+            <td>Name:</td>
+            <td>600</td>
+          </tr>
+          <tr class="count">
+            <td>Name:</td>
+            <td>700</td>
+           </tr>
+           <tr class="count">
+            <td>Name:</td>
+            <td>200</td>
+           </tr>
+         </table>
+     </div>
+       <div id="page-grid-2">
+          <h3>Add your score</h3>
+           <form>
+             <label for="name"></label>
+             <input id="name" placeholder="Your name">
+             <label for="score"></label>
+             <input  id="score" placeholder="Your score">
+             <button type="button" class="btn2">Submit</button>
+          </form>
+     </div>
+ </section>
 </body>
 </html>
