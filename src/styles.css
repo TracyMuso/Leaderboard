@@ -43,6 +43,7 @@ h1 {
   font-size: 15px;
   margin: 0.5rem;
   height: 2rem;
+  box-shadow: 2px 5px #2c2b2b;
 }
 
 #board {
@@ -101,5 +102,5 @@ button:active {
 .btn2 {
   padding: 0.5rem;
   font-size: 15px;
-  box-shadow: 2px #2c2b2b;
+  box-shadow: 2px 5px #2c2b2b;
 }
