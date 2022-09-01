@@ -15,32 +15,18 @@
               <button type="button" class="btn1">Refresh</button>
            </div>
          <table id="board">
-           <tr class="count">
-              <td class="player">Name:</td>
-              <td>500</td>
-           </tr>
-           <tr class="count">
-            <td>Name:</td>
-            <td>600</td>
-          </tr>
-          <tr class="count">
-            <td>Name:</td>
-            <td>700</td>
-           </tr>
-           <tr class="count">
-            <td>Name:</td>
-            <td>200</td>
-           </tr>
+          <!--Dynamically generated board-->
          </table>
      </div>
        <div id="page-grid-2">
           <h3>Add your score</h3>
-           <form>
+           <form id="form">
              <label for="name"></label>
              <input type="text" id="name" maxlength="10" placeholder="Your name" required>
              <label for="score"></label>
-             <input type="text" id="score" placeholder="Your score" maxlength="5" required>
+             <input type="text" id="score" placeholder="Your score" maxlength="4" required>
              <button type="submit" class="btn2">Submit</button>
+             <span id="error"></span>
           </form>
      </div>
  </section>

@@ -1,20 +1,7 @@
-@font-face {
-  font-family: 'Bubblegum Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('./bubblegum-sans-v16-latin-regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('./fira-sans-v16-latin-regular.woff2') format('woff2');
-}
-
 body {
   width: 100%;
   font-family: 'Bubblegum Sans', cursive, sans-serif;
+  font-style: normal;
 }
 
 #leaderboard {
