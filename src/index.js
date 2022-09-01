@@ -1,5 +1,9 @@
 import './styles.css';
 import { post, getScores } from './modules/fetchAPI.js';
+import spaceWallpaper from './spaceWallpaper.jpg';
+
+const newImg = new Image();
+newImg.src = spaceWallpaper;
 
 const form = document.getElementById('form');
 const player = document.getElementById('name');

@@ -1,6 +1,6 @@
 ## Leaderboard App
 
-> In this project, I made a simple website called Leaderboard. The user is able to see scores of other players and is also able to add their own scores
+> In this project, I made a simple website called Leaderboard. I made a simple game ame using an API and the user is able get all scores for the game from the API when they click the refresh button. The user is also able to add their own scores using the form provided.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
@@ -27,7 +27,7 @@
 - To clone the repository run [https://github.com/elfin-git/Leaderboard] in your terminal
 
 # Usage
-- This can be used to see scores of different people.
+- This can be used to add and see scores of different players.
 - **NOTE**: The mobile version is currently unavailable.
 
 # Install
@@ -41,7 +41,7 @@
 
 - GitHub: [@githubhandle](https://github.com/elfin-git)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/tracy-musongole)
+- LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-musongole)
 
 
 ## 🤝 Contributing
@@ -63,4 +63,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/elfin-git/Leaderboard/blob/styles/MIT) licensed.
