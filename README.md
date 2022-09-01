@@ -4,8 +4,6 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
-<img src="https://elfin-git.github.io/Leaderboard/blob/styles/img/appUI.png" width="800" height="500"/>
-
 
 ## Built With
 
