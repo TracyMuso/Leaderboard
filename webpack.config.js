@@ -34,6 +34,9 @@ module.exports = {
         test: /\.(jpg|png)$/i,
         use: {
           loader: 'url-loader',
+          options: {
+            esModule: false,
+          },
         },
       },
       {

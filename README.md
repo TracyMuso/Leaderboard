@@ -24,7 +24,49 @@
 - Github flow knowledge. -Intermediate CSS, HTML and Javascript. -Installation of linter files. -install webpack
 
 # Setup 
-- To clone the repository run [https://github.com/elfin-git/Leaderboard] in your terminal
+- To get a local copy follow these simple steps:
+
+- Clone Your Github Repository Follow these steps to clone your Clone Your Github Repository Follow these steps to clone my Github repo on Windows:
+
+   - Open Git Bash;
+
+   - If Git is not already installed, it is super simple. Just go to the Git Download Folder and follow the instructions.
+
+   - Go to the current directory where you want the cloned directory to be added;
+
+   - To do this, input cd and add your folder location. You can add the folder location by dragging the folder to Git bash.
+    $ cd '/c/Users/Documents/My Git Project'
+
+    - Go to the page of the repository that you want to clone.
+
+    - Click on “Clone or download” and copy the URL.
+
+    - Use the git clone command along with the copied URL from earlier;
+
+    - $ git clone https://github.com/elfin-git/Leaderboard
+
+   - Press Enter;
+
+# Tests and Configuration
+
+To track linter errors locally follow these steps:
+
+Download all the dependencies run:
+
+npm install
+
+**Track HTML linter errors run:**
+
+npx hint .
+
+**Track CSS linter errors run:**
+
+npx stylelint "**/*.{css,scss}"
+
+**Track JavaScript linter errors run:**
+
+npx eslint .
+
 
 # Usage
 - This can be used to add and see scores of different players.
@@ -49,7 +91,7 @@
 Contributions, issues, and feature requests are welcome!
 
 
-Feel free to check the [issues page](github.com/elfin-git/Leaderboard/issues/).
+Feel free to check the [issues page](https://github.com/elfin-git/Leaderboard/issues).
 
 ## Show your support
 
