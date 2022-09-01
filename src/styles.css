@@ -43,6 +43,7 @@ tr {
   display: flex;
   flex-direction: row;
   padding: 0.2rem;
+  gap: 1rem;
 }
 
 tr:nth-child(odd) {

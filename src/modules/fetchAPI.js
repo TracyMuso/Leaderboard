@@ -11,7 +11,6 @@ export const post = async () => {
           'Content-Type': 'application/json',
         },
         })
-      // .then(response => {return response.json})
 };
 
 export const getScores = async () => {
@@ -29,7 +28,7 @@ export const getScores = async () => {
       row.className = 'count';
       const player = document.createElement('td');
       player.className = 'name';
-      player.innerHTML = `${element.user}`
+      player.innerHTML = `${element.user}:`
       const scores = document.createElement('td');
       scores.className = 'score';
       scores.innerHTML = `${element.score}`
