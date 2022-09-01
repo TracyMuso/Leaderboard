@@ -63,4 +63,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./.md) licensed.
+This project is [MIT](https://github.com/elfin-git/Leaderboard/blob/styles/MIT) licensed.
