@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaderBoard</title>
+<script defer src="runtime3144b2c2846998fa6f76.js"></script><script defer src="bundle9eee07522f20d9026e18.js"></script></head>
+<body>
+  <h1>LeaderBoard</h1>
+  <section id="leaderboard">
+      <div id="page-grid-1">
+           <div id="refresh">
+              <h3>Recent Scores</h3>
+              <button type="button" class="btn1">Refresh</button>
+           </div>
+         <table id="board">
+          <!--Dynamically generated board-->
+         </table>
+     </div>
+       <div id="page-grid-2">
+          <h3>Add your score</h3>
+           <form id="form">
+             <label for="name"></label>
+             <input type="text" id="name" maxlength="10" placeholder="Your name" required>
+             <label for="score"></label>
+             <input type="text" id="score" placeholder="Your score" maxlength="2" required>
+             <button type="submit" class="btn2">Submit</button>
+             <span id="error"></span>
+          </form>
+     </div>
+ </section>
+ <footer>
+  <p>Designed by Tracy Musongole</p>
+ </footer>
+</body>
+</html>
