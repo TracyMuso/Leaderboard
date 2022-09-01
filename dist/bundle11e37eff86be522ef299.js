@@ -9,22 +9,24 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ "./src/styles.css");
-/* harmony import */ var _modules_fetchAPI__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/fetchAPI */ "./src/modules/fetchAPI.js");
+/* harmony import */ var _modules_fetchAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/fetchAPI.js */ "./src/modules/fetchAPI.js");
 
 
 var form = document.getElementById('form');
+var player = document.getElementById('name');
+var playerScore = document.getElementById('score');
 var refreshBtn = document.querySelector('.btn1');
 form.addEventListener('submit', function (e) {
   e.preventDefault();
-  (0,_modules_fetchAPI__WEBPACK_IMPORTED_MODULE_1__.post)();
+  (0,_modules_fetchAPI_js__WEBPACK_IMPORTED_MODULE_1__.post)();
   player.value = '';
   playerScore.value = '';
 });
 refreshBtn.addEventListener('click', function () {
-  (0,_modules_fetchAPI__WEBPACK_IMPORTED_MODULE_1__.getScores)();
+  (0,_modules_fetchAPI_js__WEBPACK_IMPORTED_MODULE_1__.getScores)();
   window.location.reload();
 });
-window.onload = (0,_modules_fetchAPI__WEBPACK_IMPORTED_MODULE_1__.getScores)();
+window.onload = (0,_modules_fetchAPI_js__WEBPACK_IMPORTED_MODULE_1__.getScores)();
 
 /***/ }),
 
@@ -47,6 +49,7 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+/* eslint-disable no-unused-vars */
 var requestURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/viIYUtZdNuIa0PPWUYwJ/scores/';
 var player = document.getElementById('name');
 var playerScore = document.getElementById('score');
@@ -666,4 +669,4 @@ module.exports = styleTagTransform;
 /******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
 /******/ }
 ]);
-//# sourceMappingURL=bundle1e43b316267f98a95d95.js.map
+//# sourceMappingURL=bundle11e37eff86be522ef299.js.map
