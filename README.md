@@ -2,7 +2,7 @@
 
 > In this project, I made a simple website called Leaderboard. I made a simple game ame using an API and the user is able get all scores for the game from the API when they click the refresh button. The user is also able to add their own scores using the form provided.
 
-<img src="https://elfin-git.github.io/Leaderboard/blob/dev/img/appUI1.png" width="800" height="500"/>
+<img src="https://github.com/elfin-git/Leaderboard/blob/dev/img/appUI1.png" width="800" height="500"/>
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
