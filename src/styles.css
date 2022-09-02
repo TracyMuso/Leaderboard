@@ -2,7 +2,7 @@ body {
   width: 100%;
   font-family: 'Bubblegum Sans', cursive, sans-serif;
   font-style: normal;
-  background: url('./spaceWallpaper.jpg');
+  background-color: rgb(214, 98, 243); 
 }
 
 #leaderboard {
@@ -16,7 +16,7 @@ h3 {
   font-size: 30px;
   font-weight: 800;
   padding: 0.5rem;
-  color: rgb(192, 207, 220);
+  color: rgb(83, 93, 101);
 }
 
 #refresh {
@@ -58,11 +58,11 @@ tr {
 }
 
 tr:nth-child(odd) {
-  background-color: #3a3d4b;
+  background-color: #eea5dc;
 }
 
 td {
-  color: rgb(192, 207, 220);
+  color: rgb(230, 238, 245);
 }
 
 #page-grid-2 {

@@ -153,17 +153,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
-
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./spaceWallpaper.jpg */ "./src/spaceWallpaper.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  width: 100%;\r\n  font-family: 'Bubblegum Sans', cursive, sans-serif;\r\n  font-style: normal;\r\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\n#leaderboard {\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr;\r\n  width: 100%;\r\n}\r\n\r\nh1,\r\nh3 {\r\n  font-size: 30px;\r\n  font-weight: 800;\r\n  padding: 0.5rem;\r\n  color: rgb(192, 207, 220);\r\n}\r\n\r\n#refresh {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 0.5rem;\r\n  row-gap: 1rem;\r\n  align-items: center;\r\n  margin-left: 5rem;\r\n}\r\n\r\n.btn1 {\r\n  width: 5rem;\r\n  font-size: 15px;\r\n  margin: 0.5rem;\r\n  height: 2rem;\r\n  box-shadow: 2px 5px #2c2b2b;\r\n  background-color: rgb(18, 248, 248);\r\n  border: none;\r\n  border-radius: 10%;\r\n}\r\n\r\n.btn1:hover {\r\n  background-color: rgb(48, 74, 202);\r\n}\r\n\r\n#board {\r\n  width: 70%;\r\n  margin-left: 5rem;\r\n  border: solid 1px #2c2b2b;\r\n  border-radius: 1%;\r\n}\r\n\r\ntr {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 0.2rem;\r\n  gap: 1rem;\r\n}\r\n\r\ntr:nth-child(odd) {\r\n  background-color: #3a3d4b;\r\n}\r\n\r\ntd {\r\n  color: rgb(192, 207, 220);\r\n}\r\n\r\n#page-grid-2 {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n}\r\n\r\n#page-grid-2 h3 {\r\n  text-align: center;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 0.7rem;\r\n  padding: 0.5rem;\r\n  justify-content: end;\r\n  align-items: flex-end;\r\n  margin-right: 5rem;\r\n  width: 70%;\r\n}\r\n\r\n#name {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  width: 90%;\r\n}\r\n\r\nbutton:active {\r\n  background-color: #b1adad;\r\n}\r\n\r\n#score {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  width: 90%;\r\n}\r\n\r\n.btn2 {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  box-shadow: 2px 5px #2c2b2b;\r\n  background-color: rgb(67, 197, 173);\r\n  border: none;\r\n  border-radius: 10%;\r\n}\r\n\r\n.btn2:hover {\r\n  background-color: rgb(31, 176, 64);\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,kDAAkD;EAClD,kBAAkB;EAClB,mDAAuC;AACzC;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,WAAW;AACb;;AAEA;;EAEE,eAAe;EACf,gBAAgB;EAChB,eAAe;EACf,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,WAAW;EACX,eAAe;EACf,cAAc;EACd,YAAY;EACZ,2BAA2B;EAC3B,mCAAmC;EACnC,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;AACpC;;AAEA;EACE,UAAU;EACV,iBAAiB;EACjB,yBAAyB;EACzB,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,SAAS;AACX;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,qBAAqB;EACrB,kBAAkB;EAClB,UAAU;AACZ;;AAEA;EACE,eAAe;EACf,eAAe;EACf,UAAU;AACZ;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,eAAe;EACf,eAAe;EACf,UAAU;AACZ;;AAEA;EACE,eAAe;EACf,eAAe;EACf,2BAA2B;EAC3B,mCAAmC;EACnC,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;AACpC","sourcesContent":["body {\r\n  width: 100%;\r\n  font-family: 'Bubblegum Sans', cursive, sans-serif;\r\n  font-style: normal;\r\n  background: url('./spaceWallpaper.jpg');\r\n}\r\n\r\n#leaderboard {\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr;\r\n  width: 100%;\r\n}\r\n\r\nh1,\r\nh3 {\r\n  font-size: 30px;\r\n  font-weight: 800;\r\n  padding: 0.5rem;\r\n  color: rgb(192, 207, 220);\r\n}\r\n\r\n#refresh {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 0.5rem;\r\n  row-gap: 1rem;\r\n  align-items: center;\r\n  margin-left: 5rem;\r\n}\r\n\r\n.btn1 {\r\n  width: 5rem;\r\n  font-size: 15px;\r\n  margin: 0.5rem;\r\n  height: 2rem;\r\n  box-shadow: 2px 5px #2c2b2b;\r\n  background-color: rgb(18, 248, 248);\r\n  border: none;\r\n  border-radius: 10%;\r\n}\r\n\r\n.btn1:hover {\r\n  background-color: rgb(48, 74, 202);\r\n}\r\n\r\n#board {\r\n  width: 70%;\r\n  margin-left: 5rem;\r\n  border: solid 1px #2c2b2b;\r\n  border-radius: 1%;\r\n}\r\n\r\ntr {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 0.2rem;\r\n  gap: 1rem;\r\n}\r\n\r\ntr:nth-child(odd) {\r\n  background-color: #3a3d4b;\r\n}\r\n\r\ntd {\r\n  color: rgb(192, 207, 220);\r\n}\r\n\r\n#page-grid-2 {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n}\r\n\r\n#page-grid-2 h3 {\r\n  text-align: center;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 0.7rem;\r\n  padding: 0.5rem;\r\n  justify-content: end;\r\n  align-items: flex-end;\r\n  margin-right: 5rem;\r\n  width: 70%;\r\n}\r\n\r\n#name {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  width: 90%;\r\n}\r\n\r\nbutton:active {\r\n  background-color: #b1adad;\r\n}\r\n\r\n#score {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  width: 90%;\r\n}\r\n\r\n.btn2 {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  box-shadow: 2px 5px #2c2b2b;\r\n  background-color: rgb(67, 197, 173);\r\n  border: none;\r\n  border-radius: 10%;\r\n}\r\n\r\n.btn2:hover {\r\n  background-color: rgb(31, 176, 64);\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  width: 100%;\r\n  font-family: 'Bubblegum Sans', cursive, sans-serif;\r\n  font-style: normal;\r\n  background-color: rgb(214, 98, 243); \r\n}\r\n\r\n#leaderboard {\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr;\r\n  width: 100%;\r\n}\r\n\r\nh1,\r\nh3 {\r\n  font-size: 30px;\r\n  font-weight: 800;\r\n  padding: 0.5rem;\r\n  color: rgb(83, 93, 101);\r\n}\r\n\r\n#refresh {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 0.5rem;\r\n  row-gap: 1rem;\r\n  align-items: center;\r\n  margin-left: 5rem;\r\n}\r\n\r\n.btn1 {\r\n  width: 5rem;\r\n  font-size: 15px;\r\n  margin: 0.5rem;\r\n  height: 2rem;\r\n  box-shadow: 2px 5px #2c2b2b;\r\n  background-color: rgb(18, 248, 248);\r\n  border: none;\r\n  border-radius: 10%;\r\n}\r\n\r\n.btn1:hover {\r\n  background-color: rgb(48, 74, 202);\r\n}\r\n\r\n#board {\r\n  width: 70%;\r\n  margin-left: 5rem;\r\n  border: solid 1px #2c2b2b;\r\n  border-radius: 1%;\r\n}\r\n\r\ntr {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 0.2rem;\r\n  gap: 1rem;\r\n}\r\n\r\ntr:nth-child(odd) {\r\n  background-color: #eea5dc;\r\n}\r\n\r\ntd {\r\n  color: rgb(230, 238, 245);\r\n}\r\n\r\n#page-grid-2 {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n}\r\n\r\n#page-grid-2 h3 {\r\n  text-align: center;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 0.7rem;\r\n  padding: 0.5rem;\r\n  justify-content: end;\r\n  align-items: flex-end;\r\n  margin-right: 5rem;\r\n  width: 70%;\r\n}\r\n\r\n#name {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  width: 90%;\r\n}\r\n\r\nbutton:active {\r\n  background-color: #b1adad;\r\n}\r\n\r\n#score {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  width: 90%;\r\n}\r\n\r\n.btn2 {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  box-shadow: 2px 5px #2c2b2b;\r\n  background-color: rgb(67, 197, 173);\r\n  border: none;\r\n  border-radius: 10%;\r\n}\r\n\r\n.btn2:hover {\r\n  background-color: rgb(31, 176, 64);\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,kDAAkD;EAClD,kBAAkB;EAClB,mCAAmC;AACrC;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,WAAW;AACb;;AAEA;;EAEE,eAAe;EACf,gBAAgB;EAChB,eAAe;EACf,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,WAAW;EACX,eAAe;EACf,cAAc;EACd,YAAY;EACZ,2BAA2B;EAC3B,mCAAmC;EACnC,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;AACpC;;AAEA;EACE,UAAU;EACV,iBAAiB;EACjB,yBAAyB;EACzB,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,SAAS;AACX;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,qBAAqB;EACrB,kBAAkB;EAClB,UAAU;AACZ;;AAEA;EACE,eAAe;EACf,eAAe;EACf,UAAU;AACZ;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,eAAe;EACf,eAAe;EACf,UAAU;AACZ;;AAEA;EACE,eAAe;EACf,eAAe;EACf,2BAA2B;EAC3B,mCAAmC;EACnC,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;AACpC","sourcesContent":["body {\r\n  width: 100%;\r\n  font-family: 'Bubblegum Sans', cursive, sans-serif;\r\n  font-style: normal;\r\n  background-color: rgb(214, 98, 243); \r\n}\r\n\r\n#leaderboard {\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr;\r\n  width: 100%;\r\n}\r\n\r\nh1,\r\nh3 {\r\n  font-size: 30px;\r\n  font-weight: 800;\r\n  padding: 0.5rem;\r\n  color: rgb(83, 93, 101);\r\n}\r\n\r\n#refresh {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 0.5rem;\r\n  row-gap: 1rem;\r\n  align-items: center;\r\n  margin-left: 5rem;\r\n}\r\n\r\n.btn1 {\r\n  width: 5rem;\r\n  font-size: 15px;\r\n  margin: 0.5rem;\r\n  height: 2rem;\r\n  box-shadow: 2px 5px #2c2b2b;\r\n  background-color: rgb(18, 248, 248);\r\n  border: none;\r\n  border-radius: 10%;\r\n}\r\n\r\n.btn1:hover {\r\n  background-color: rgb(48, 74, 202);\r\n}\r\n\r\n#board {\r\n  width: 70%;\r\n  margin-left: 5rem;\r\n  border: solid 1px #2c2b2b;\r\n  border-radius: 1%;\r\n}\r\n\r\ntr {\r\n  display: flex;\r\n  flex-direction: row;\r\n  padding: 0.2rem;\r\n  gap: 1rem;\r\n}\r\n\r\ntr:nth-child(odd) {\r\n  background-color: #eea5dc;\r\n}\r\n\r\ntd {\r\n  color: rgb(230, 238, 245);\r\n}\r\n\r\n#page-grid-2 {\r\n  display: flex;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n}\r\n\r\n#page-grid-2 h3 {\r\n  text-align: center;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 0.7rem;\r\n  padding: 0.5rem;\r\n  justify-content: end;\r\n  align-items: flex-end;\r\n  margin-right: 5rem;\r\n  width: 70%;\r\n}\r\n\r\n#name {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  width: 90%;\r\n}\r\n\r\nbutton:active {\r\n  background-color: #b1adad;\r\n}\r\n\r\n#score {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  width: 90%;\r\n}\r\n\r\n.btn2 {\r\n  padding: 0.5rem;\r\n  font-size: 15px;\r\n  box-shadow: 2px 5px #2c2b2b;\r\n  background-color: rgb(67, 197, 173);\r\n  border: none;\r\n  border-radius: 10%;\r\n}\r\n\r\n.btn2:hover {\r\n  background-color: rgb(31, 176, 64);\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -277,44 +272,6 @@ module.exports = function (cssWithMappingToString) {
   };
 
   return list;
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    options = {};
-  }
-
-  if (!url) {
-    return url;
-  }
-
-  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
-
-  if (/^['"].*['"]$/.test(url)) {
-    url = url.slice(1, -1);
-  }
-
-  if (options.hash) {
-    url += options.hash;
-  } // Should url be wrapped?
-  // See https://drafts.csswg.org/css-values-3/#urls
-
-
-  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
-    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
-  }
-
-  return url;
 };
 
 /***/ }),
@@ -726,4 +683,4 @@ module.exports = __webpack_require__.p + "spaceWallpaper.jpg";
 /******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
 /******/ }
 ]);
-//# sourceMappingURL=bundle9eee07522f20d9026e18.js.map
+//# sourceMappingURL=bundle478cc87cf94df852c5b3.js.map
