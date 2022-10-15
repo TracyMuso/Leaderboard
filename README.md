@@ -2,7 +2,7 @@
 
 > In this project, I made a simple website called Leaderboard. I made a simple game ame using an API and the user is able get all scores for the game from the API when they click the refresh button. The user is also able to add their own scores using the form provided.
 
-<img src="https://github.com/elfin-git/Leaderboard/blob/dev/img/appUI1.png" width="800" height="500"/>
+<img src="./img/appUI1.png" width="800" height="500"/>
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
@@ -16,7 +16,7 @@
 
 ## Live Demo 
 
-[liveDemoLink](https://elfin-git.github.io/Leaderboard/dist)
+[liveDemoLink](https://TracyMuso.github.io/Leaderboard/dist)
 
 ## Getting Started
 
@@ -46,7 +46,7 @@
 
     - Use the git clone command along with the copied URL from earlier;
 
-    - $ git clone https://github.com/elfin-git/Leaderboard
+    - $ git clone https://github.com/TracyMuso/Leaderboard
 
    - Press Enter;
 
@@ -84,9 +84,9 @@ npx eslint .
 
 👤 **Tracy Musongole**
 
-- GitHub: [@githubhandle](https://github.com/elfin-git)
+- GitHub: [@githubhandle](https://github.com/TracyMuso)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
-- LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-musongole)
+- LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-muso)
 
 
 ## 🤝 Contributing
@@ -94,7 +94,7 @@ npx eslint .
 Contributions, issues, and feature requests are welcome!
 
 
-Feel free to check the [issues page](https://github.com/elfin-git/Leaderboard/issues).
+Feel free to check the [issues page](github.com/TracyMuso/Leaderboard/issues).
 
 ## Show your support
 
@@ -108,4 +108,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/elfin-git/Leaderboard/blob/styles/MIT) licensed.
+This project is [MIT](./MIT) licensed.
